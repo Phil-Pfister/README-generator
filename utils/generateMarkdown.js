@@ -31,36 +31,40 @@ function generateMarkdown(data) {
   ----------------------
   - [Description](#description) 
   - [Usage](#usage)  
-  - [Installation](#installation)  
-  - [License](#license)  
+  - [Installation](#installation)   
   - [Contributing](#contributing)  
-  - [Questions](#questions)  
+  - [Questions](#questions)
+  - [License](#license)   
     
 
-  ### Description  
+  ## Description  
   -------------------
   ${data.description}
 
-  ### Usage  
+  ## Usage  
   ------------
   ${data.usage}
  
-  ### Installation  
+  ## Installation  
   -------------------
   ${data.installation}
 
-  ### License
-  --------------
-  ${data.license}
-
-  ### Contributing 
+  ## Credits 
   ------------------
   ${data.credits}
 
-  ### Contact Information
+  ## Tests
+  ------------------
+  ${tests}
+
+  ## Contact Information
   -------------------------
   ### Github: [${data.creator}](https://github.com/${data.github})
-  #### Email: ${data.email}
+  ### Email: ${data.email}
+
+  ## License
+  --------------
+  ${data.license}
 
 `;
 }

@@ -75,10 +75,12 @@ function writeToFile(fileName, data) {
 function init() {
    inquirer.prompt(questions)
     .then((answers => {
-        const readme = genMark(answers);
+        let readme = genMark(answers);
         writeToFile("README.md", readme);
         }));
+        
 }
 
 // Function call to initialize app
 init();
+

@@ -1,38 +1,38 @@
-# readme-generator
+# README-generator
   -------------------
 
   ## Table of Contents  
   ----------------------
   - [Description](#description) 
   - [Usage](#usage)  
-  - [Installation](#installation)  
-  - [License](#license)  
+  - [Installation](#installation)   
   - [Contributing](#contributing)  
-  - [Questions](#questions)  
+  - [Questions](#questions)
+  - [License](#license)   
     
 
-  ### Description  
+  ## Description  
   -------------------
-  generates a completed readme file based on node prompts
+  Creates a readme file based on answers to a set of questions about a project
 
-  ### Usage  
+  ## Usage  
   ------------
-  run node index and answer the prompts in the terminal
+  Install node js and inquirer npm and run node. After answering questions from the command line a readme file will be generated and you can copy and paste to your project file
  
-  ### Installation  
+  ## Installation  
   -------------------
-  clone repo to your machine and run with node
+  Clone the README-generator repo to your machine
 
-  ### License
-  --------------
-  MIT
-
-  ### Contributing 
+  ## Contributing 
   ------------------
-  stackoverflow.com
+  I recieved tips and suggestions from stack overflow and mdn web docs ans well as the docs from nodejs and npm inquirer
 
-  ### Contact Information
+  ## Contact Information
   -------------------------
   ### Github: [Phil Pfister](https://github.com/phil-pfister)
-  #### Email: salshouse@gmail.com
+  ### Email: salshouse@gmail.com
+
+  ## License
+  --------------
+  Apache_2.0
 
