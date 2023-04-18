@@ -4,6 +4,7 @@ const inquirer = require('inquirer');
 const genMark = require('./utils/generateMarkdown.js');
 
 
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -76,11 +77,16 @@ function init() {
    inquirer.prompt(questions)
     .then((answers => {
         let readme = genMark(answers);
-        writeToFile("README.md", readme);
+        writeToFile("READMEEXAMPLE.md", readme);
         }));
+       
+    
+      
         
 }
 
+
 // Function call to initialize app
 init();
+
 

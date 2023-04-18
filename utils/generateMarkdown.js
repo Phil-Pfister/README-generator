@@ -1,8 +1,10 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+
+
 function renderLicenseBadge(license) {
     if (license) {
-    fs.appendFile('README.md', `https://img.shields.io/badge/license-${license}-blue`)
+    return `[![License: ${license}](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})`
     } else {
         return "";
     }
@@ -12,7 +14,7 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
     if (license) {
-        fs.appendFile('README.md', `\n![${data.license}](https://opensource.org/license/${data.license}/)\n`)
+        return `[${license}](https://opensource.org/license/${license}/)\n`
         } else {
             return "";
         }
@@ -20,13 +22,21 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+    if (license) {
+        return `Read more about ${license} here:`
+        } else {
+            return "";
+        }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.projectName}
   -------------------
-
+  ## Badges
+  -------------------
+  ${renderLicenseBadge(data.license)}  
   ## Table of Contents  
   ----------------------
   - [Description](#description) 
@@ -55,7 +65,7 @@ function generateMarkdown(data) {
 
   ## Tests
   ------------------
-  ${tests}
+  ${data.tests}
 
   ## Contact Information
   -------------------------
@@ -64,7 +74,8 @@ function generateMarkdown(data) {
 
   ## License
   --------------
-  ${data.license}
+  ${renderLicenseSection(data.license)}
+  ${renderLicenseLink(data.license)}
 
 `;
 }

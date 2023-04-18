@@ -1,6 +1,8 @@
-# README-generator
+# README-Generator
   -------------------
-
+  ## Badges
+  -------------------
+  [![License: Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache_2.0)  
   ## Table of Contents  
   ----------------------
   - [Description](#description) 
@@ -13,19 +15,27 @@
 
   ## Description  
   -------------------
-  Creates a readme file based on answers to a set of questions about a project
+  Generates a readme file based on input from user
 
   ## Usage  
   ------------
-  Install node js and inquirer npm and run node. After answering questions from the command line a readme file will be generated and you can copy and paste to your project file
+  run 
+  `node index.js` 
+  in the command line and answer the prompts. When you are finished a completed README.md file will 
+  appear in your folder 
  
   ## Installation  
   -------------------
-  Clone the README-generator repo to your machine
+  install nodejs and npm inquirer and clone repo to your machine
 
-  ## Contributing 
+  ## Credits 
   ------------------
-  I recieved tips and suggestions from stack overflow and mdn web docs ans well as the docs from nodejs and npm inquirer
+  I used the knowledge I learned in the Rice University Bootcamp class as well as documentation from 
+  mpn docs and Nodejs. I also refered to Stackoverflow for suggestions on syntax.
+
+  ## Tests
+  ------------------
+  NA
 
   ## Contact Information
   -------------------------
@@ -34,5 +44,7 @@
 
   ## License
   --------------
-  Apache_2.0
+  Read more about Apache_2.0 here:
+  [Apache_2.0](https://opensource.org/license/Apache_2.0/)
+
 
