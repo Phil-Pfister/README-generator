@@ -1,4 +1,4 @@
-# README-Generator
+# README-generator
   -------------------
   ## Badges
   -------------------
@@ -15,19 +15,19 @@
 
   ## Description  
   -------------------
-  Genreates a README.md file based on questions asked in the command line
+  gerates a readme file
 
   ## Usage  
   ------------
-  Run `node index.js` in the command line and answer the questions.
+  run node index.js 
  
   ## Installation  
   -------------------
-  Install nodejs and clone the repo to your computer and run the command `npm i`
+  clone repo and run npm i
 
   ## Credits 
   ------------------
-  I researched the documentation of Nodejs and npm inquirer and read some articles in stack overflow
+  stackoverflow
 
   ## Tests
   ------------------

@@ -1,6 +1,6 @@
 
 
-
+// Renders license badge or returns empty string
 function renderLicenseBadge(license) {
     if (license) {
     return `[![License: ${license}](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/${license})`
@@ -9,7 +9,7 @@ function renderLicenseBadge(license) {
     }
 }
 
-
+// Renders the license link or returns empty string
 function renderLicenseLink(license) {
     if (license) {
         return `[${license}](https://opensource.org/license/${license}/)\n`
@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
         }
 }
 
-
+// adds text to the license section
 function renderLicenseSection(license) {
     if (license) {
         return `Read more about ${license} here:`
@@ -27,7 +27,7 @@ function renderLicenseSection(license) {
         }
 }
 
-
+// takes the data returned by inquirer and adds to the template literal
 function generateMarkdown(data) {
   return `# ${data.projectName}
   -------------------
@@ -76,5 +76,5 @@ function generateMarkdown(data) {
 
 `;
 }
-
+// exports page to be used by index.js
 module.exports = generateMarkdown;
