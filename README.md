@@ -2,7 +2,9 @@
   -------------------
   ## Badges
   -------------------
-  [![License: Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache_2.0)  
+  [![License: Apache_2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache_2.0)
+
+  [![Javascript](https://badges.frapsoft.com/javascript/code/javascript.png?v=101)](https://github.com/ellerbrock/javascript-badges/)  
   ## Table of Contents  
   ----------------------
   - [Description](#description) 
