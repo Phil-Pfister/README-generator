@@ -1,8 +1,8 @@
-# cooking-With-Phil
+# README-Generator
   -------------------
   ## Badges
   -------------------
-  [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)  
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)  
   ## Table of Contents  
   ----------------------
   - [Description](#description) 
@@ -15,19 +15,19 @@
 
   ## Description  
   -------------------
-  Generates random recipes for you to try
+  Generates a readme.md file
 
   ## Usage  
   ------------
-  Run node index.js and answer questions about dietary restrictions and allergies and you will recieve a recipe
+  Run node index.js
  
   ## Installation  
   -------------------
-  install node and npm inquirer
+  Clone repo and run npm i
 
   ## Credits 
   ------------------
-  John Smith and Julia Child
+  StackOverflow and MPN docs
 
   ## Tests
   ------------------
@@ -35,12 +35,12 @@
 
   ## Contact Information
   -------------------------
-  ### Github: [Phil Pfister](https://github.com/peter_child)
-  ### Email: peter@aol.com
+  ### Github: [Phil Pfister](https://github.com/phil-pfister)
+  ### Email: salshouse@gmail.com
 
   
   ## License 
 -------------- 
-This application uses the The Unlicense license
+This application uses the Mozilla license
   
 
