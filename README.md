@@ -17,7 +17,10 @@
 
   ## Description  
   -------------------
-  Generates a readme file based on input from user
+  Generates a readme file based on input from user.
+  See walkthrough video here: 
+  
+  [Walkthrough](https://drive.google.com/file/d/15HRIF0RyKtRjYWZoqATKG9Qzl85Dq4_g/view?usp=sharing)
 
   ## Usage  
   ------------
